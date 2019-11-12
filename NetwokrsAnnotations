@@ -19,3 +19,21 @@ TABELA VIZINHAS
 
 1 - intra-area(O)
 2 - inter-area(O IA)
+
+wild card mask- > aonde eu tenho 0 é fixo. onde não tem pode ser qualquer numero
+
+exemplo 1: 192.168.30.1 0.0.0.255
+192 obrigatorio
+.168 obrigatorio
+  .30 obrigatorio
+  .1 pode ser qualquer numero
+
+
+
+-- comandos
+router ospf ? (o ? pode ser um numero)
+network < ip and wild card mask>
+
+show ospf neighbor - tabela de vizinhança
+show ip route -> tabela de roteamento
+show ip ospf database -> tabela topologica
