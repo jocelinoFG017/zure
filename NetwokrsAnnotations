@@ -1,0 +1,21 @@
+anotações de redes:
+
+
+<h1>Fundamentos OSPF</h1>
+
+TABELA topologica (todas as rotas, all routers)
+   - Contem tudo
+TABELA ROTEAMENTO
+  - Contem só as melhores rotas
+
+TABELA VIZINHAS
+  - se tudo estiver certo ele forma uma adjacencia contruindo uma tabela de vizinhança
+  - contem os endereços mais pertos.
+
+<h1> Siglas </h1>
+
+- DR - Designed Router
+- DBR - Backup Designed Router
+
+1 - intra-area(O)
+2 - inter-area(O IA)
