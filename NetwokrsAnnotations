@@ -34,6 +34,15 @@ exemplo 1: 192.168.30.1 0.0.0.255
 router ospf ? (o ? pode ser um numero)
 network < ip and wild card mask>
 
+
+ena = enable
+conf t = configure terminal
+primeiro tem que adicionar um ip a entrada.
+
+
+
+
 show ospf neighbor - tabela de vizinhança
 show ip route -> tabela de roteamento
 show ip ospf database -> tabela topologica
+
