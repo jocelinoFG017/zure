@@ -1,0 +1,14 @@
+<h2> EIGRP </h2>
+
+EIGRP - protocolo de roteamento interior(dentro de empresa(medio e  grande porte));
+Tambem possui as tabelas (topologica, de vizinhança e de roteamento);
+Utiliza o DUAL(Diffusing Update Algorithm) - Encontra o melhor caminho e provê uma convergência rápida;
+
+Por default o EIGRP trabalha com 2 métricas ou (K's) ->  (largura de banda e delay);
+
+
+RD - Reported Distance(distancia anunciada ao outros roteadores para chegar em seu destino(rede));
+FD- Feasible Distance (distancia total)
+
+O EIGRP trabalha com duas rotas a principal(successor) e a backup(Feasible Successor);
+
