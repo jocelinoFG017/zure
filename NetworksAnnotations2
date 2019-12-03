@@ -1,14 +1,48 @@
-<h2> EIGRP </h2>
+<h2> EIGRP 03/12/2019 </h2>
 
-EIGRP - protocolo de roteamento interior(dentro de empresa(medio e  grande porte));
-Tambem possui as tabelas (topologica, de vizinhança e de roteamento);
+EIGRP - protocolo de roteamento interior(utilizado dentro de empresas( de medio e  grande porte));
+Assim como o OSPF , tambem possui as tabelas (topologica, de vizinhança e de roteamento);
+
 Utiliza o DUAL(Diffusing Update Algorithm) - Encontra o melhor caminho e provê uma convergência rápida;
 
 Por default o EIGRP trabalha com 2 métricas ou (K's) ->  (largura de banda e delay);
 
 
 RD - Reported Distance(distancia anunciada ao outros roteadores para chegar em seu destino(rede));
-FD- Feasible Distance (distancia total)
+FD - Feasible Distance (distancia total)
 
 O EIGRP trabalha com duas rotas a principal(successor) e a backup(Feasible Successor);
 
+RD(caminho alternativo) < FD(caminho principal);(RD<FD);
+
+comandos
+
+show ip eigrp topology (mostra a tabela topológica)
+show ip route (tabela de roteamento(contem as melhores rotas))
+show ip eigrp neighbor(tabela de vizinhança)
+
+traceroute 192.168.3.2(mostra as rotas percorridas(no caso a rota que precisa até chegar a determinado roteador))
+    exemplo: (para chegar até determinado roteador ele tem que passar pelos roteadores 1 e 2).
+      1 192.168.1.2 
+      2 192.168.2.2
+
+router eigrp <N°>(o Nº tem de ser o mesmo para todos os roteadores)
+network <ip e wild card mask>
+
+exemplos:
+        network 192.168.5.0 0.0.0.255
+        network 192.168.6.0 0.0.0.255
+ação prática:
+
+Roteador 1
+ena
+conf t
+router eigrp 2
+network 192.168.5.0 0.0.0.255
+
+Roteador 2
+ena
+conf t
+router eigrp 2
+network 192.168.6.0 0.0.0.255
+network 192.168.5.0 0.0.0.255(cria uma adjacência com o roteador 1)
