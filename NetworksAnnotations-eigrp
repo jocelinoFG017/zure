@@ -1,6 +1,6 @@
-<h2> EIGRP 03/12/2019 </h2>
+<h2> Fundamentos EIGRP 03/12/2019 </h2>
 
-EIGRP - protocolo de roteamento interior(utilizado dentro de empresas( de medio e  grande porte));
+EIGRP - protocolo de roteamento interior(utilizado dentro de empresas( de medio e grande porte));
 Assim como o OSPF , tambem possui as tabelas (topologica, de vizinhança e de roteamento);
 
 Utiliza o DUAL(Diffusing Update Algorithm) - Encontra o melhor caminho e provê uma convergência rápida;
@@ -15,11 +15,11 @@ O EIGRP trabalha com duas rotas a principal(successor) e a backup(Feasible Succe
 
 RD(caminho alternativo) < FD(caminho principal);(RD<FD);
 
-comandos
+--  COMANDOS -- 
 
-show ip eigrp topology (mostra a tabela topológica)
-show ip route (tabela de roteamento(contem as melhores rotas))
-show ip eigrp neighbor(tabela de vizinhança)
+show ip eigrp topology -> (mostra a tabela topológica)
+show ip route          -> (tabela de roteamento(contem as melhores rotas))
+show ip eigrp neighbor -> (tabela de vizinhança)
 
 traceroute 192.168.3.2(mostra as rotas percorridas(no caso a rota que precisa até chegar a determinado roteador))
     exemplo: (para chegar até determinado roteador ele tem que passar pelos roteadores 1 e 2).
