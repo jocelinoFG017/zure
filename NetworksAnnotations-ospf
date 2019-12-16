@@ -37,12 +37,11 @@ network < ip and wild card mask>
 
 ena = enable
 conf t = configure terminal
-primeiro tem que adicionar um ip a entrada.
+(primeiro tem que adicionar um ip a entrada(porta).)
 
 
 
-
-show ospf neighbor - tabela de vizinhança
-show ip route -> tabela de roteamento
+show ospf neighbor    -> tabela de vizinhança
+show ip route         -> tabela de roteamento
 show ip ospf database -> tabela topologica
 
