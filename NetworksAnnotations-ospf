@@ -38,6 +38,7 @@ network < ip and wild card mask>
 ena = enable
 conf t = configure terminal
 (primeiro tem que adicionar um ip a entrada(porta).)
+int = interface
 
 
 
@@ -51,6 +52,6 @@ show ip ospf database -> tabela topologica
 1º * ena
 2º * conf t
 3º * int (porta(ex: int f0/0))
-4º * ip address 192....(ex:192.168.0.2 255.255.255.255)   ** endereço ip + a maskara
+4º * ip address 192....(ex:192.168.0.2 255.255.255.0)   ** endereço ip + a maskara
 5º * no shut
 OBS:ignore as *
