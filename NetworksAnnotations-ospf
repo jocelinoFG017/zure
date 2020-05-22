@@ -48,7 +48,7 @@ show ip ospf database -> tabela topologica
 
 
 ---------- CONFIGURANDO OSPF ---
-
+ ------ add ip a uma porta e ativando-a
 1º * ena
 2º * conf t
 3º * int (porta(ex: int f0/0))
