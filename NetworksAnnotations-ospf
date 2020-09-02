@@ -35,6 +35,12 @@ router ospf ? (o ? pode ser um numero)
 network < ip and wild card mask>
 
 
+
+
+
+Links youtube uteis-:
+https://www.youtube.com/watch?v=a-jDa3vTUfA
+
 ena = enable
 conf t = configure terminal
 (primeiro tem que adicionar um ip a entrada(porta).)
