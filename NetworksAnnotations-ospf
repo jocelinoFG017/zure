@@ -48,7 +48,7 @@ int = interface
 
 
 
-show ospf neighbor    -> tabela de vizinhança
+show ip ospf neighbor    -> tabela de vizinhança
 show ip route         -> tabela de roteamento
 show ip ospf database -> tabela topologica
 
