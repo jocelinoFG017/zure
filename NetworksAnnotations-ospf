@@ -1,14 +1,20 @@
 anotações de redes:
+<h1> ICMP(Internet Control Message Protocol) </h1>
+   - fornece relatórios de erros a fonte original.
 
+<h1> IPv4 </h1>
+   - O roteador é responsável pela fragmentação...
+<h1> IPv6 </h1>
+   - Quem origina o tráfego é responsável pela fragmentação.
 
 <h1>Fundamentos OSPF</h1>
 
-TABELA topologica (todas as rotas, all routers)
-   - Contem tudo
-TABELA ROTEAMENTO
-  - Contem só as melhores rotas
+TABELA TOPOLOGICA (todas as rotas, all routers)
+   - Contem tudo/TODAS AS ROTAS.
+TABELA DE ROTEAMENTO
+  - Contem só as melhores rotas.
 
-TABELA VIZINHAS
+TABELA DE VIZINHANÇA
   - se tudo estiver certo ele forma uma adjacencia contruindo uma tabela de vizinhança
   - contem os endereços mais pertos.
 
