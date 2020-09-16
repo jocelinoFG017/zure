@@ -1,4 +1,7 @@
-anotações de redes:
+Anotações de redes:
+Legendas
+   lsu-> Link State Update
+
 <h1> ICMP(Internet Control Message Protocol) </h1>
    - fornece relatórios de erros a fonte original.
 
@@ -8,7 +11,7 @@ anotações de redes:
    - Quem origina o tráfego é responsável pela fragmentação.
 
 <h1>Fundamentos OSPF (Open Shorted Path First)</h1>
-   - É um protocolo de roteamento dinamico.
+   - É um protocolo de roteamento dinamico. do tipo link-state
    - Ele se ajusta a melhor rota.
    - Não usa protocolo IP TCP/UDP.
    - utiliza um protocolo IP próprio type 89.
@@ -20,8 +23,11 @@ anotações de redes:
      - lsu -> o vizinho responde com o lsa completo, entrega a rota/ a melhor rota no caso
      - lsa -> confirma que recebeu a rota especifica ou algum pacote ospf(pacotes hello não necessitam confirmação)
 
-      DR -> 
-      BDR ->
+      DR -> o maior IP/ todos fazem adjacencia com ele
+      BDR -> o segundo maior IP
+      Internal router - somente em uma area.
+      backbone router- na area 0
+      
 
 TABELA TOPOLOGICA (todas as rotas, all routers)
    - Contem toda a rede/TODAS AS ROTAS.
@@ -37,8 +43,8 @@ TABELA DE VIZINHANÇA
 - DR - Designed Router
 - DBR - Backup Designed Router
 
-1 - intra-area(O)
-2 - inter-area(O IA)
+1 - intra-area(O) - é usado quando a origem  e o destino estão na mesma area
+2 - inter-area(O IA) - quando estão em areas diferentes
 
 wild card mask- > aonde eu tenho 0 é fixo. onde não tem pode ser qualquer numero
 
