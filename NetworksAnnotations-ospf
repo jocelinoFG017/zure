@@ -15,6 +15,7 @@ Legendas
    - Ele se ajusta a melhor rota.
    - Não usa protocolo IP TCP/UDP.
    - utiliza um protocolo IP próprio type 89.
+   - é open source
    
    <h3>ospf packet types/tipos de pacotes<h3>
      - Hello -> utilizado para descobrir vizinhos
@@ -23,10 +24,12 @@ Legendas
      - lsu -> o vizinho responde com o lsa completo, entrega a rota/ a melhor rota no caso
      - lsa -> confirma que recebeu a rota especifica ou algum pacote ospf(pacotes hello não necessitam confirmação)
 
-      DR -> o maior IP/ todos fazem adjacencia com ele
-      BDR -> o segundo maior IP
-      Internal router - somente em uma area.
+      DR -> o maior IP/ todos fazem adjacencia com ele/ é como se fosse o sindico
+      BDR -> o segundo maior IP/ é como se fosse o sub-sindico
+      Internal router - somente em uma area e não pode estar na area 0.
       backbone router- na area 0
+      abr-  é responsável por conectar duas ou mais áreas.
+      asbr-conecta outros protocolos de roteamento ( redistribuição ) para dentro do protocolo OSPF
       
 
 TABELA TOPOLOGICA (todas as rotas, all routers)
@@ -59,7 +62,6 @@ exemplo 1: 192.168.30.1 0.0.0.255
 -- comandos
 router ospf ? (o ? pode ser um numero)
 network < ip and wild card mask>
-
 
 
 
