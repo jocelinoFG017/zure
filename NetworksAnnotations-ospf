@@ -24,7 +24,8 @@ Legendas:
    
    <h3> Routers types</h3>
       - DR -> o maior IP/ todos fazem adjacencia com ele/ é como se fosse o sindico.
-      - BDR -> o segundo maior IP/ é como se fosse o sub-sindico.
+      - BDR -> o segundo maior IP/ é como se fosse o sub-sindico. o backup em caso de falha do DR
+      
       - Internal router -> somente em uma area e não pode estar na area 0.
       - Backbone router -> na area 0.
       - ABR -> é responsável por conectar duas ou mais áreas.
