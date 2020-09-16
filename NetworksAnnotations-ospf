@@ -1,28 +1,34 @@
 Anotações de redes:
+
 Legendas:
    LSU-> Link State Update.
    LSR-> Link State Request.
 
+
 <h1>Fundamentos OSPF (Open Shorted Path First)</h1>
-   - É um protocolo de roteamento dinamico. do tipo link-state
-   - Ele se ajusta a melhor rota.
-   - Não usa protocolo IP TCP/UDP.
-   - utiliza um protocolo IP próprio type 89.
-   - é open source
+      - É um protocolo de roteamento dinâmico. do tipo link-state
+      - Ele se ajusta a melhor rota.
+      - Não usa protocolo IP TCP/UDP.
+      - utiliza um protocolo IP próprio type 89.
+      - é open source/aberto.
+   
    
    <h3> ospf packet types/tipos de pacotes<h3>
+   
      - Hello -> utilizado para descobrir vizinhos(pacote de aviso).
      - DD -> contem o resumo de toda a tabela topologica.
      - LSR -> requisita um pedido a um vizinho de uma rota especifica.
      - LSU -> o vizinho responde com o LSA completo, entrega a rota(a melhor rota no caso).
      - LSAck -> confirma que recebeu a rota especifica ou algum pacote ospf(pacotes hello não necessitam confirmação).
-
-      DR -> o maior IP/ todos fazem adjacencia com ele/ é como se fosse o sindico
-      BDR -> o segundo maior IP/ é como se fosse o sub-sindico
-      Internal router - somente em uma area e não pode estar na area 0.
-      backbone router- na area 0
-      abr-  é responsável por conectar duas ou mais áreas.
-      asbr-conecta outros protocolos de roteamento ( redistribuição ) para dentro do protocolo OSPF
+     
+   
+   <h3> Routers types</h3>
+      - DR -> o maior IP/ todos fazem adjacencia com ele/ é como se fosse o sindico.
+      - BDR -> o segundo maior IP/ é como se fosse o sub-sindico.
+      - Internal router -> somente em uma area e não pode estar na area 0.
+      - Backbone router -> na area 0.
+      - ABR -> é responsável por conectar duas ou mais áreas.
+      - ASBR -> conecta outros protocolos de roteamento ( redistribuição ) para dentro do protocolo OSPF.
       
 
 TABELA TOPOLOGICA (todas as rotas, all routers)
