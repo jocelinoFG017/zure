@@ -13,12 +13,15 @@ anotações de redes:
    - Não usa protocolo IP TCP/UDP.
    - utiliza um protocolo IP próprio type 89.
    
-   <h3>ospf packet types/pacotes<h3>
+   <h3>ospf packet types/tipos de pacotes<h3>
      - Hello -> utilizado para descobrir vizinhos
      - dd -> contem um resumo de toda a tabela topologica.
      - lsr -> requisita um pedido a um vizinho de uma rota especifica
      - lsu -> o vizinho responde com o lsa completo, entrega a rota/ a melhor rota no caso
      - lsa -> confirma que recebeu a rota especifica ou algum pacote ospf(pacotes hello não necessitam confirmação)
+
+      DR -> 
+      BDR ->
 
 TABELA TOPOLOGICA (todas as rotas, all routers)
    - Contem toda a rede/TODAS AS ROTAS.
