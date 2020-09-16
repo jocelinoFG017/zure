@@ -1,14 +1,7 @@
 Anotações de redes:
-Legendas
-   lsu-> Link State Update
-
-<h1> ICMP(Internet Control Message Protocol) </h1>
-   - fornece relatórios de erros a fonte original.
-
-<h1> IPv4 </h1>
-   - O roteador é responsável pela fragmentação...
-<h1> IPv6 </h1>
-   - Quem origina o tráfego é responsável pela fragmentação.
+Legendas:
+   LSU-> Link State Update.
+   LSR-> Link State Request.
 
 <h1>Fundamentos OSPF (Open Shorted Path First)</h1>
    - É um protocolo de roteamento dinamico. do tipo link-state
@@ -17,12 +10,12 @@ Legendas
    - utiliza um protocolo IP próprio type 89.
    - é open source
    
-   <h3>ospf packet types/tipos de pacotes<h3>
-     - Hello -> utilizado para descobrir vizinhos
-     - dd -> contem um resumo de toda a tabela topologica.
-     - lsr -> requisita um pedido a um vizinho de uma rota especifica
-     - lsu -> o vizinho responde com o lsa completo, entrega a rota/ a melhor rota no caso
-     - lsa -> confirma que recebeu a rota especifica ou algum pacote ospf(pacotes hello não necessitam confirmação)
+   <h3> ospf packet types/tipos de pacotes<h3>
+     - Hello -> utilizado para descobrir vizinhos(pacote de aviso).
+     - DD -> contem o resumo de toda a tabela topologica.
+     - LSR -> requisita um pedido a um vizinho de uma rota especifica.
+     - LSU -> o vizinho responde com o LSA completo, entrega a rota(a melhor rota no caso).
+     - LSAck -> confirma que recebeu a rota especifica ou algum pacote ospf(pacotes hello não necessitam confirmação).
 
       DR -> o maior IP/ todos fazem adjacencia com ele/ é como se fosse o sindico
       BDR -> o segundo maior IP/ é como se fosse o sub-sindico
