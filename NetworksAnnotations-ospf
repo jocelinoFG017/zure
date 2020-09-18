@@ -88,4 +88,16 @@ show ip ospf database -> tabela topologica
 3º * int (porta(ex: int f0/0))
 4º * ip address 192....(ex:192.168.0.2 255.255.255.0)   ** endereço ip + a maskara
 5º * no shut
-OBS:ignore as *
+6º * exit
+
+  ------- Agora o vem o ospf --------
+  
+1º * router ospf ?(?->pode ser qualquer NUMERO)
+2º * network 192.168.x.x 0.0.0.255 area 0        *(x == ao IP de sua preferencia)*(0.0.0.255 == mascara coringa)(area -> tem que ter uma area se não, não vai dar certo)
+3º * no shut(talvez não seja necessário esse aqui)
+4º * exit
+5º * wr (pra salvar as alterações feitas no roteador)
+
+OBS: ignore *
+
+se você estiver usando o packet tracer terá de fazer todos os passos no segundo roteador conectando-os na mesma area, se tudo estiver correto acontecerá a adjacencia entre os roteadores.
