@@ -1,0 +1,13 @@
+Serviços de TI:
+ITIL Services:
+- Service Strategy
+- Service Design
+- Service Transition
+- Service Operations
+- Continual Service Improvement
+
+Segundo Magalhães e Pinheiro(2007) não existe uma única definição de serviço, mas uma
+possível definição de serviço de TI é um conjunto...
+
+
+
