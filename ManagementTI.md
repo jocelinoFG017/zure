@@ -6,7 +6,7 @@ ITIL Services:
 - Service Operations
 - Continual Service Improvement
 
-![alt text](https://github.com/jocelinoFG017/zure/blob/master/Images/itil.png?raw=true)
+![Optional Text](../master/Images/itil.png)
 
 
 Segundo Magalhães e Pinheiro(2007) não existe uma única definição de serviço, mas uma
