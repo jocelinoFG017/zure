@@ -1,4 +1,4 @@
-﻿Serviços de TI:
+ Serviços de TI:
 ITIL Services:
 - Service Strategy(gerenciamento financeiro, de portifólio e demanda).
 - Service Design
@@ -6,11 +6,14 @@ ITIL Services:
 - Service Operations
 - Continual Service Improvement
 
+![itil](https://github.com/jocelinoFG017/zure/blob/master/Images/itil.png)
+
+
 Segundo Magalhães e Pinheiro(2007) não existe uma única definição de serviço, mas uma
 possível definição de serviço de TI é um conjunto...
 
 
-![itil]()
+
 
 Estratégia de serviço
  - Portifólio de serviços:
