@@ -17,4 +17,13 @@ pois está ao lado de seus colegas e incentiva o progresso saudável.
 
 R1P3:
 
-lll
+O guia PMBOOK fornece diretrizes para o gerenciamento de projetos individuais
+, o  ciclo de vida do projeto,seus processos e os conceitos relacionados
+com o gerenciamento de projetos. Ele é um guia que ajuda a encontrar
+o melhor caminho para que um projeto tenha sucesso.
+
+
+R1P3: É importante porque o gerenciamento de escopo inclui os processos necessários
+para assegurar que o projeto inclua todo o trabalho necessário para terminar 
+o projeto com sucesso e o gerenciamento do cronograma inclui os processos
+necessários para gerenciar o término pontual do projeto.
