@@ -2,7 +2,7 @@
 
 ANOTAÇÕES DE AULAS RELACIONADAS A REDES DE COMPUTADORES E AFINS
 
-### Fundamentos [OSPF](https://github.com/jocelinoFG017/zure/blob/master/NetworksAnnotations-ospf)
+### Fundamentos [OSPF](https://github.com/jocelinoFG017/zure/blob/master/NetworksAnnotations-ospf.md)
 
 ### Fundamentos [EIGRP](https://github.com/jocelinoFG017/zure/blob/master/NetworksAnnotations-eigrp)
 
